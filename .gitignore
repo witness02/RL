@@ -1,0 +1,6 @@
+*/**/.DS_Store
+.idea
+.DS_Store
+/.vscode/settings.json
+*.iml
+/__pycache__
