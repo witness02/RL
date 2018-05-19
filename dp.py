@@ -65,7 +65,7 @@ class Dp:
 if __name__ == '__main__':
     env = SimpleEnv(4, 4)
     dp = Dp(env, 1)
-    for i in range(20):
+    for i in range(200):
         env.reset()
         dp.policy_evaluation()
         dp.policy_iteration()
